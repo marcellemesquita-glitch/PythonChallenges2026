@@ -1,0 +1,49 @@
+**1. Analisador de Frequência Textual**
+
+Processe um texto longo e identifique padrões: palavras mais frequentes, comprimento médio, palavras únicas. 
+Pense: como você organizaria esses dados para consultas rápidas? Qual estrutura facilita contar ocorrências?
+
+**2. Simulador de Baralho Inteligente**
+
+Crie um sistema de cartas que permita embaralhar, distribuir mãos e verificar combinações (pares, sequências). 
+Reflita: como representar uma carta? E um conjunto de cartas? Como garantir que não haja repetições ao distribuir?
+
+**3. Conversor de Notações Matemáticas**
+
+Transforme expressões da notação infixa (3 + 4) para pós-fixa (3 4 +). 
+Pergunta crucial: qual estrutura de dados "lembra" da ordem correta dos operadores enquanto processa da esquerda para a direita?
+
+**4. Sistema de Recomendação Básico**
+
+Dados perfis de usuários com suas preferências, sugira itens para um novo usuário baseado em similaridade. 
+Pense: como comparar dois perfis eficientemente? Como armazenar relações entre usuários e itens?
+
+**5. Compressor de Texto Simples**
+
+Implemente um algoritmo que identifique padrões repetidos em texto e os substitua por códigos menores. 
+Considere: como detectar repetições? Como mapear códigos para texto original? (Dica: uma biblioteca pode ajudar com manipulação de arquivos)
+
+**6. Validador de Estruturas Aninhadas**
+
+Verifique se parênteses, colchetes e chaves estão balanceados em código: `{[()]}` válido, `{[(])}` inválido. 
+Questão: que estrutura "lembra" qual símbolo foi aberto por último?
+
+**7. Agenda de Contatos com Busca Inteligente**
+
+Armazene contatos e permita buscas parciais (ex: "silva" encontra "João Silva" e "Silva Santos"). 
+Desafio: como organizar dados para buscas rápidas sem varrer tudo? Múltiplos campos (nome, telefone, email) complicam?
+
+**8. Analisador de Logs com Timestamps**
+
+Processe arquivos de log, extraia informações temporais e gere estatísticas (picos de atividade, duração entre eventos). 
+Reflita: como manipular datas/horários? Uma biblioteca seria útil aqui? Como agrupar eventos por período?
+
+**9. Gerador de Senhas Seguras com Regras**
+
+Crie senhas que atendam múltiplos critérios: tamanho, mix de caracteres, sem padrões óbvios. 
+Pense: como garantir randomização verdadeira? Como validar todas as regras? (Uma biblioteca pode facilitar a parte aleatória)
+
+**10. Sistema de Pontuação de Competição**
+
+Gerencie ranking de participantes onde pontos podem ser ganhos/perdidos, com histórico de mudanças. 
+Desafio conceitual: como manter ordem atualizada eficientemente? Como armazenar histórico sem duplicar dados?
