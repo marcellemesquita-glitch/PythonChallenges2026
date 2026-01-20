@@ -1,0 +1,19 @@
+**DESAFIO 01:**
+
+Processe um texto longo e identifique padrões: palavras mais frequentes, comprimento médio, palavras únicas. 
+Pense: como você organizaria esses dados para consultas rápidas? Qual estrutura facilita contar ocorrências?
+
+Passo 01: Transformar o texto em uma lista de palavras
+A primeira dificuldade que tive foi de conseguir criar a lista de palavras retirando os símbolos e espaços, descobri a re que faz este trabalho. 
+Antes tentei fazer manualmente com loop, mas tive dificuldades e gerou linhas de códigos desnecessária.
+
+Passo 02: Identificar as palavras únicas
+Esta parte foi bem fácil pois o set já cria uma lista sem repetições.
+
+Passo 03: Identicar as palavras repetidas e suas quantidades
+Demorei um pouco para resolver essa parte, tentei via count mas percebi que ele contava os "e" dentro das palavras e isso gerava um valor errado.
+Pesquisando conheci o Counter da biblioteca collections e pronto, resultado funcional e em apenas uma linha de código.
+
+Passo 04: Descobrir as palavras com mais repetições
+Tentei criar listas com os valores e keys separados para depois tentar buscar dentro do dicionário, mas não deu certo pois em alguns textos os números de palavras repetidadas eram iguais.
+Uma solução mais prática foi usar o Dictionary comprehension para criar uma lista apenas com os valores máximos e exibir depois com print.
